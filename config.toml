@@ -39,34 +39,46 @@ unsafe = true
 #### Menu Info
 [menu]                                                
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "posts"
+    identifier = "research"
+    name = "Research"
+    url = "research"
     weight = 1
 
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "tags"
+    identifier = "software"
+    name = "Software"
+    url = "software"
     weight = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "projects"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blogs"
+    url = "posts"
+    weight = 4
 
   [[menu.main]]
     identifier = "categories"
     name = "Categories"
     url = "categories"
-    weight = 3
+    weight = 5
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "about"
-    weight = 4
+    weight = 6
 
   [[menu.main]]
     identifier = "zh"
     name = '<i class="fas fa-language fa-fw"></i>'
     url = "https://hugo-loveit-zh.netlify.com"
-    weight = 5
+    weight = 7
 
 [params]
   version = "5.x"                                        # LoveIt theme version
