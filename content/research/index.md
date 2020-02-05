@@ -1,7 +1,7 @@
 ---
 title: "Research"
 date: 2020-02-04T10:00:04+07:00
-draft: true
+draft: false
 ---
 
 ## Human behavioral analysis from high dimensionality features
