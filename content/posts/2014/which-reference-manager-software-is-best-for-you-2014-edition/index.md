@@ -14,6 +14,9 @@ resources:
 - src: colwiz2.png
 ---
 
+_2020 remark: 
+This article was first published in 2014 under the name [Which reference manager software is best for you? [2014 edition]](https://rorasa.wordpress.com/2014/10/21/which-reference-manager-software-is-best-for-you-2014-edition/)._
+
 I was having a problem with my reference manager. When I realised it takes too much time using it than do things manually, it’s a good signal that it’s time for a change. The trouble is there are many reference managers available; how can I know which one will work best for me? This article will explore pros and cons of several popular reference manager softwares in the market.
 
 ## What is a reference manager?
