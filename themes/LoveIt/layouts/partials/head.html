@@ -54,3 +54,5 @@
     {{ $res := resources.Get "css/lib/animate/animate.min.css" | resources.Minify -}}
     <link rel="stylesheet" href="{{ $res.RelPermalink }}">
 {{ end }}
+
+{{ partial "mathjax_support.html" . }}
