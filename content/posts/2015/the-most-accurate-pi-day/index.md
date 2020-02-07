@@ -1,7 +1,7 @@
 ---
 title: "The Most Accurate Pi Day"
 date: 2015-03-14T09:37:40+07:00
-draft: true
+draft: false
 taxonomies:
   category: mathematics
   tag: 
