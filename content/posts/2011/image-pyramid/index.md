@@ -2,7 +2,7 @@
 title: "Image Pyramid"
 date: 2011-02-26T03:33:09+07:00
 lastmod: 2020-02-09T03:33:09+07:00
-draft: true
+draft: false
 taxonomies:
   category: electrical engineering
   tag: 
