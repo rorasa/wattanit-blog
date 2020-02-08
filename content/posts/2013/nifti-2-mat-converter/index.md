@@ -13,7 +13,7 @@ taxonomies:
 ---
 
 _2020 remark: 
-This article was first published in 2014 under the name [NIfTI 2 MAT Converter](https://rorasa.wordpress.com/2013/03/21/nifti-2-mat-converter/)._
+This article was first published in 2013 under the name [NIfTI 2 MAT Converter](https://rorasa.wordpress.com/2013/03/21/nifti-2-mat-converter/)._
 
 _This software is discontinued and supports are provided no longer. However, I keep it posted here for the completion sake. It could still work given that the right version of the dependencies and Matlab Compiler Runtime are available._
 

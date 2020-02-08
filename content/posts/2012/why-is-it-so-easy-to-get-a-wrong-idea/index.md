@@ -10,6 +10,9 @@ taxonomies:
   - politics
 ---
 
+_2020 remark: 
+This article was first published in 2012 under the name [Why is it so easy to get a wrong idea?](https://rorasa.wordpress.com/2012/09/08/why-is-it-so-easy-to-get-a-wrong-idea/)._
+
 I saw several of my friends shared this picture on Facebook.
 
 {{< figure src="304521_10151204958996900_1299744359_n.jpg" width="400px" >}}
