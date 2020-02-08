@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
-title = "Wattanit Hotrakool"                                   # website title
+title = "LoveIt Theme"                                   # website title
 theme = "LoveIt"                                         # theme
 enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
@@ -9,11 +9,11 @@ paginate = 12                                            # default amount of pos
 enableEmoji = true                                       # whether to use emoji code
 enableRobotsTXT = true                                   # whether to use robots.txt
 googleAnalytics = ""                                     # [UA-XXXXXXXX-X] google analytics code
-disqusShortname = ""                                     # Disqus shortname to use Disqus in posts
+disqusShortname = "dillonzq"                             # Disqus shortname to use Disqus in posts
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
                                                          # copyright description used only for seo schema
 
-#### Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+                                                      #### Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
 pygmentsOptions = "linenos=table"
 pygmentsCodefences = true
 pygmentsUseClasses = true
@@ -25,41 +25,27 @@ pygmentsCodefencesGuessSyntax = true
 unsafe = true
 
 [author]                                              #### Author Info
-  name = "Wattanit Hotrakool"
+  name = "XXXX"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
-#### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
-[Permalinks]                                          
+[Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
   posts = ":year/:month/:filename"
 
-#### Menu Info
-[menu]                                                
-  [[menu.main]]
-    identifier = "research"
-    name = "Research"
-    url = "research"
-    weight = 1
-
-#  [[menu.main]]
-#    identifier = "software"
-#    name = "Software"
-#    url = "software"
-#    weight = 2
-
-#  [[menu.main]]
-#    identifier = "projects"
-#    name = "Projects"
-#    url = "projects"
-#    weight = 3
-
+[menu]                                                #### Menu Info
   [[menu.main]]
     identifier = "posts"
-    name = "Blogs"
+    name = "Posts"
     url = "posts"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "tags"
     weight = 2
 
   [[menu.main]]
@@ -74,27 +60,27 @@ unsafe = true
     url = "about"
     weight = 4
 
-#  [[menu.main]]
-#    identifier = "zh"
-#    name = '<i class="fas fa-language fa-fw"></i>'
-#    url = "https://hugo-loveit-zh.netlify.com"
-#    weight = 5
+  [[menu.main]]
+    identifier = "zh"
+    name = '<i class="fas fa-language fa-fw"></i>'
+    url = "https://hugo-loveit-zh.netlify.com"
+    weight = 5
 
 [params]
   version = "5.x"                                        # LoveIt theme version
-  description = "Personal website of Wattanit Hotrakool" # site description
-  keywords = ["Personal", "Landing", "Researcher", "Programmer", "Portfolio"]  # site keywords
+  description = "LoveIt Theme Demo"                      # site description
+  keywords = ["XXXX", "Theme", "Hugo"]                   # site keywords
 
- #### Home Page Info
+                                                      #### Home Page Info
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = ""                           # URL of avatar shown in home page
-  subtitle = "Persoanl website of Wattanit Hotrakool"    # subtitle shown in home page
+  avatar = "images/avatar.png"                           # URL of avatar shown in home page
+  subtitle = "A Clean, Elegant but Advanced Hugo Theme"  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
-#### Footer CopyRight Info
-  since = 2020                                           # Site creation time
+                                                      #### Footer CopyRight Info
+  since = 2018                                           # Site creation time
   icp = ''                                               # ICP info only in China (HTML format is allowed)
   license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
                                                          # license info (HTML format is allowed)
@@ -102,14 +88,14 @@ unsafe = true
 
   linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
 
-#### site verification code for Google/Bing/Yandex/Pinterest/Baidu
+                                                      #### site verification code for Google/Bing/Yandex/Pinterest/Baidu
   google_verification = ""
   bing_verification = ""
   yandex_verification = ""
   pinterest_verification = ""
   baidu_verification = ""
 
-  #### CSS and JS Files CDN
+  [params.cdn]                                       #### CSS and JS Files CDN
     fontawesome_free_css = ''                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
     animate_css = ''
     gitalk_css = ''
@@ -134,15 +120,15 @@ unsafe = true
     email = ""
 
   [params.social]                                        # Social Info in home page
-    GitHub = "rorasa"
-    Linkedin = "wattanit"
-    Twitter = "rorasa"
+    GitHub = "xxxx"
+    Linkedin = "xxxx"
+    Twitter = "xxxx"
     #Instagram = "xxxx"
     #Email = "xxxx"
-    #Facebook = "xxxx"
-    #Telegram = "xxxx"
+    Facebook = "xxxx"
+    Telegram = "xxxx"
     #Medium = "xxxx"
-    Gitlab = "rorasa"
+    #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
     #Youtubecustom = "xxxx"
     #Youtubechannel = "xxxx"
@@ -165,7 +151,7 @@ unsafe = true
     #Spotify = "xxxx"
     #Bandcamp = "xxxx"
     #Paypal = "xxxx"
-    Fivehundredpx = "wrorasa"
+    #Fivehundredpx = "xxxx"
     #Mix = "xxxx"
     #Goodreads = "xxxx"
     #Lastfm = "xxxx"
@@ -189,7 +175,7 @@ unsafe = true
     #Wordpress = "xxxx"
     #Vine = "xxxx"
     #Googlescholar = "xxxx"
-    Researchgate = "Wattanit_Hotrakool"
+    #Researchgate = "xxxx"
     #Mastodon = "xxxx"
     #Thingiverse = "xxxx"
     #Devto = "xxxx"
@@ -208,7 +194,7 @@ unsafe = true
     #Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
-    name = "Wattanit Hotrakool"
+    name = "XXXX"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
@@ -248,27 +234,23 @@ unsafe = true
     appId = ""
     languageCode = "en_US"
 
-#### Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
-[privacy]                                             
+[privacy]                                             #### Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
   [privacy.googleAnalytics]
     anonymizeIP = true
 
   [privacy.youtube]
     privacyEnhanced = true
 
-#### Options to make hugo output .md files.
-[mediaTypes]                                          
+[mediaTypes]                                          #### Options to make hugo output .md files.
   [mediaTypes."text/plain"]
     suffixes = ["md"]
 
-#### Options to make hugo output .md files.
-[outputFormats.MarkDown]                              
+[outputFormats.MarkDown]                              #### Options to make hugo output .md files.
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
 
-#### Options to make hugo output .md files.
-[outputs]                                             
+[outputs]                                             #### Options to make hugo output .md files.
   home = ["HTML", "RSS"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
