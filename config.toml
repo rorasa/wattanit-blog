@@ -88,8 +88,8 @@ unsafe = true
  #### Home Page Info
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = ""                           # URL of avatar shown in home page
-  subtitle = "Persoanl website of Wattanit Hotrakool"    # subtitle shown in home page
+  avatar = ""                                            # URL of avatar shown in home page
+  subtitle = "Personal website of Wattanit Hotrakool"    # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
