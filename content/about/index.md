@@ -6,7 +6,7 @@ draft: false
 
 **Wattanit Hotrakool, Ph.D.**
 
-Lead Data Scientist, Mobilife International Ltd.
+Data Science Manager, Mobilife International Ltd.
 
 #scientist #researcher #developer #entrepreneur #maker
 
